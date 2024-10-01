@@ -97,6 +97,16 @@ const config = getDefaultConfig(__dirname)
 module.exports = withNativeWind(config, { input: './src/styles/global.css' })
 ```
 
+in the root, create the foder `types`
+
+in `types` folder, create file `nativewind-env.d.ts`
+
+insert into `types/nativewind-env.d.ts`:
+
+```ts
+/// <reference types="nativewind/types" />
+```
+
 ## Custom Help Material
 
 [Criar App Delivery com React Native + TailwindCSS](https://www.youtube.com/watch?v=aABUs_L4AZg)
