@@ -48,3 +48,55 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Addition Configs
+
+### NativeWind
+
+[NativeWind](https://www.nativewind.dev/)
+
+Create this file in root `tailwind.config.js`
+
+paste this code in file
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  // NOTE: Update this to include the paths to all of your component files.
+  content: ["./app/**/*.{js,jsx,ts,tsx}"],
+  presets: [require("nativewind/preset")],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+in `babel.config.js` put this
+
+```js
+module.exports = function (api) {
+  api.cache(true);
+  return {
+    presets: [
+      ["babel-preset-expo", { jsxImportSource: "nativewind" }],
+      "nativewind/babel",
+    ],
+  };
+};
+```
+
+create `metro.config.js` and put this in here:
+
+```js
+const { getDefaultConfig } = require("expo/metro-config");
+const { withNativeWind } = require('nativewind/metro');
+
+const config = getDefaultConfig(__dirname)
+
+module.exports = withNativeWind(config, { input: './src/styles/global.css' })
+```
+
+## Custom Help Material
+
+[Criar App Delivery com React Native + TailwindCSS](https://www.youtube.com/watch?v=aABUs_L4AZg)
