@@ -110,3 +110,7 @@ insert into `types/nativewind-env.d.ts`:
 ## Custom Help Material
 
 [Criar App Delivery com React Native + TailwindCSS](https://www.youtube.com/watch?v=aABUs_L4AZg)
+
+## Steps per Day
+
+- Day 1: [23:48](https://www.youtube.com/watch?v=aABUs_L4AZg)
