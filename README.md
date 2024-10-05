@@ -115,3 +115,4 @@ insert into `types/nativewind-env.d.ts`:
 
 - Day 1: [23:48](https://www.youtube.com/watch?v=aABUs_L4AZg)
 - Day 2: [30:14](https://www.youtube.com/watch?v=aABUs_L4AZg)
+- Day 3: [45:12](https://www.youtube.com/watch?v=aABUs_L4AZg)
