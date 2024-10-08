@@ -107,6 +107,12 @@ insert into `types/nativewind-env.d.ts`:
 /// <reference types="nativewind/types" />
 ```
 
+## Up the fake API
+
+```bash
+npx json-server db.json
+```
+
 ## Custom Help Material
 
 [Criar App Delivery com React Native + TailwindCSS](https://www.youtube.com/watch?v=aABUs_L4AZg)
@@ -116,3 +122,4 @@ insert into `types/nativewind-env.d.ts`:
 - Day 1: [23:48](https://www.youtube.com/watch?v=aABUs_L4AZg)
 - Day 2: [30:14](https://www.youtube.com/watch?v=aABUs_L4AZg)
 - Day 3: [45:12](https://www.youtube.com/watch?v=aABUs_L4AZg)
+- Day 4:

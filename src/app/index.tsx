@@ -8,6 +8,7 @@ import { Header } from "../components/header";
 import { Banner } from "../components/banner";
 import { Search } from "../components/search";
 import { Section } from "../components/section";
+import { TrendingFoods } from "../components/trending";
 
 
 const statusBarHeight = Constants.statusBarHeight;
@@ -39,6 +40,7 @@ export default function Index() {
       
       />
       
+      <TrendingFoods/>
 
     </ScrollView>
   );
